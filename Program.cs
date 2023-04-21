@@ -6,7 +6,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(sumarNumbers(4,2));
+        }
+
+        static int sumarNumbers  (int num1, int num2)
+        {
+            return num1 + num2;
         }
     }
 }
