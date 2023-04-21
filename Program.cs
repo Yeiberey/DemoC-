@@ -6,12 +6,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(sumarNumbers(4,2));
+            Console.WriteLine(dividirNumbers(18,7));
         }
 
-        static int sumarNumbers  (int num1, int num2)
+        static double dividirNumbers  (double num1, int num2)
         {
-            return num1 + num2;
+            return num1 / num2;
         }
     }
 }
